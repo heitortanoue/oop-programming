@@ -1,0 +1,19 @@
+
+public class Impressao extends Dispositivo {
+	//Atributos
+	private int qtdPaginas;
+		
+	//Construtres
+	public Impressao(boolean ligado, int qtdPaginas) {
+		super(ligado);
+		this.qtdPaginas = qtdPaginas;
+	}
+	
+	//Métodos
+	public int mostraQtdPaginas() {}
+	public void editaQtdPaginas(int qtdPaginas) {}
+	public void imprimePaginas(int qtdPaginas) {}
+
+	
+
+}

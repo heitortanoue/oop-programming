@@ -1,0 +1,15 @@
+public class Dispositivo {
+	//Atributos
+	protected boolean ligado;
+
+	//Construtres
+	public Dispositivo(boolean ligado) {
+		super();
+		this.ligado = ligado;
+	}
+		
+	//Métodos 
+	public boolean VerificaStatus() {}
+	public void ligarDispositivo(boolean ligado) {}
+	public boolean execultaTeste() {}
+}
