@@ -1,0 +1,3 @@
+1) O aplicativo que cria a coleção de objetos vai continuar funcionando após a modificação na estrutura das
+classes?
+R: Não, pois o Predio agora é uma classe abstrata, o que impede ela de ser instanciada diretamente.

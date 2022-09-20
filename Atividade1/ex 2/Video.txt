@@ -1,0 +1,15 @@
+public class Video extends Dispositivo{
+	//Atributos
+	private int intesidadeBrilho = 100;
+	
+	//Construtores
+	public Video(boolean ligado, int intesidadeBrilho) {
+		super(ligado);
+		this.intesidadeBrilho = intesidadeBrilho;
+	}
+
+
+	//Métodos
+	public int VerificarBrilhoExibicao() {}
+	public void alteraBrilhoExibcao(int intesidadeBrilho) {}
+}

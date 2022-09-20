@@ -1,0 +1,16 @@
+
+public class Rede extends Dispositivo {
+	//Atributos
+	private String pacote;
+	
+	//Construtores
+	public Rede(boolean ligado, String pacote) {
+		super(ligado);
+		this.pacote = pacote;
+	}
+
+	
+	//Métodos
+	public String enviaPacoteDados() {}
+	public void RecebePacoteDados(String pacote) {}
+}
