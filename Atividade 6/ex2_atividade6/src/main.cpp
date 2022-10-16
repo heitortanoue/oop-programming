@@ -6,19 +6,19 @@ int main () {
     Complexo a(1, 2);
     Complexo b(3, 4);
 
-    Complexo c = a + b;
+    Complexo c = a.somar(b);
 
     c.imprimir();
 
-    Complexo d = a - b;
+    Complexo d = a.subtrair(b);
 
     d.imprimir();
 
-    Complexo e = a * b;
+    Complexo e = a.multiplicar(b);
 
     e.imprimir();
 
-    Complexo f = a / b;
+    Complexo f = a.dividir(b);
 
     f.imprimir();
 

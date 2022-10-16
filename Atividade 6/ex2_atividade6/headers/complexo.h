@@ -10,10 +10,10 @@ class Complexo {
         double getReal() const;
         double getImg() const;
 
-        Complexo operator+ (const Complexo &) const;
-        Complexo operator- (const Complexo &) const;
-        Complexo operator* (const Complexo &) const;
-        Complexo operator/ (const Complexo &) const;
+        Complexo somar(const Complexo &) const;
+        Complexo subtrair(const Complexo &) const;
+        Complexo multiplicar(const Complexo &) const;
+        Complexo dividir(const Complexo &) const;
 
         void imprimir() const;
     private:

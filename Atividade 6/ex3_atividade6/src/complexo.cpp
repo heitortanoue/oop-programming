@@ -28,18 +28,18 @@ void Complexo::imprimir() const {
     cout << real << "+" << img << "*i" << endl; 
 }
 
-Complexo Complexo::somar(const Complexo &c) const {
+Complexo Complexo::operator+(const Complexo &c) const {
     return Complexo(real + c.real, img + c.img);
 }
 
-Complexo Complexo::subtrair(const Complexo &c) const {
+Complexo Complexo::operator-(const Complexo &c) const {
     return Complexo(real - c.real, img - c.img);
 }
 
-Complexo Complexo::multiplicar(const Complexo &c) const {
+Complexo Complexo::operator*(const Complexo &c) const {
     return Complexo(real * c.real - img * c.img, real * c.img + img * c.real);
 }
 
-Complexo Complexo::dividir(const Complexo &c) const {
+Complexo Complexo::operator/(const Complexo &c) const {
     return Complexo((real * c.real + img * c.img) / (c.real * c.real + c.img * c.img), (img * c.real - real * c.img) / (c.real * c.real + c.img * c.img));
 }
