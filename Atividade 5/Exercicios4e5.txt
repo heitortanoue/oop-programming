@@ -1,0 +1,6 @@
+Exercício 4)
+A estratégia utilizada no código para gerar esse erro foi a chamada recursiva de um método que imprime um valor i mandado como parâmetro sem ter uma condição de saída, virando um loop infinito que acaba estourando a stack. Esse código causa o erro java.lang.StackOverflowError porque a cada chamada do método é colocado na pilha um "stack frame" que contém informações como os parâmetro local de chamada e o endereço de retorno do método.
+
+Exercício 5)
+Os seguintes objetos estão elegíveis para a coleta automática de lixo:
+"p" e "p2" (do tipo Pessoa)
