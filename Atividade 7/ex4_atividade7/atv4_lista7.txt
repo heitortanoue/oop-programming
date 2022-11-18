@@ -1,0 +1,10 @@
+**EXPERIMENTOS REALIZADOS COM 100x MENOS ELEMENTOS**
+**VISTO QUE NÃO ESTAVA SENDO POSSÍVEL COM 10^8 ELEMENTOS (java.lang.OutOfMemoryError)**
+
+0,00542 inserção e recuperação de dados no ArrayList
+0,02515  remoção e inserção de dados no ArrayList
+14,32655 inserção e recuperação de dados no LinkedList
+0,09000 remoção e inserção de dados no LinkedList
+
+A recuperação de dados na Linked List é bem mais custosa visto que o programa percorre toda a lista até encontrar o elemento pedido. Como no experimento A ( inserção e recuperação ) tem muito acesso aleatório, o uso de um ArreyList se torna mais eficiente.
+
