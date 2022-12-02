@@ -1,21 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package lista9ex3;
+import java.util.Scanner;
 
-/**
- *
- * @author beatr
- */
 public class Lista9ex3 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) throws Exception {
+        //scanner para ler uma entrada de string
+        Scanner ler = new Scanner(System.in);
+        //variavel para armazenar a string
+        String nome;
+        
+        //pede para o usuario digitar o nome do arquivo
+        System.out.println("Digite o nome do arquivo: ");
+        //armazena o nome do arquivo na variavel nome
+        nome = ler.nextLine();
+        
+        // cria um objeto da classe lerArquivo
+        lerArquivo arquivo = new lerArquivo(nome);
+        int numLinhas = arquivo.getCont();
+
+        if (numLinhas < 10 && numLinhas != -1) {
+            System.out.println("O arquivo tem menos de 10 linhas");
+        }
     }
-    
 }
