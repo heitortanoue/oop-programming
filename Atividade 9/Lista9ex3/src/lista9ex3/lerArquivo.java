@@ -16,11 +16,9 @@ public class lerArquivo {
             while (linha != null) {
                 cont++;
                 linha = lerArq.readLine();
-
-                // se chegar na linha 10, sai do loop e printa a mensagem
+                // se chegar na linha 10 printa a mensagem
                 if (cont == 10) {
                     System.out.println("O arquivo chegou na linha 10");
-                    break;
                 }
             }
             arq.close();
