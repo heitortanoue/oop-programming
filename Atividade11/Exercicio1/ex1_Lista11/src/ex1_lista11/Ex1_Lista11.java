@@ -5,7 +5,6 @@
  */
 package ex1_lista11;
 
-import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
@@ -15,10 +14,10 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author beatr
+ * @author beatriz cardoso
  */
 public class Ex1_Lista11 extends Application {
-    
+    // troca de mensagens entre cliente e servidor usando protocolo IP 
     @Override
     public void start(Stage primaryStage) {
         Button btn = new Button();
