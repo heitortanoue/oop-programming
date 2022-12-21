@@ -5,9 +5,7 @@
  */
 package clienteex1;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.URL;
@@ -84,11 +82,9 @@ public class FXMLDocumentController implements Initializable {
                 } 
             );
             String str = "";
-            while(str.compareTo("Tchau") != 0){
-                str = msg.getText();
-                ENVIA.println(str);
-                ENVIA.flush();
-            }
+            str = msg.getText();
+            ENVIA.println(str);
+            ENVIA.flush();
             
             ENVIA.close();
             CLIENTE_SOCKET.close();
