@@ -5,14 +5,14 @@
 using namespace std;
 
 // adaptador da classe deque para a classe pilha
-template <class T>
+template <typename T>
 class pilha : public deque<T> {
 public:
-    void push(const T& x) { push_back(x); }
-    void pop() { pop_back(); }
-    T& top() { return back(); }
-    const T& top() const { return back(); }
-};
+    void push(const T& x) { this->push_back(x); }
+    void pop() { this->pop_back(); }
+    T& top() { return this->back(); }
+    const T& top() const { return this->back(); }
+}; // fim da classe pilha
 
 int main() {
     pilha<int> p;
