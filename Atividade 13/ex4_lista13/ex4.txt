@@ -1,0 +1,23 @@
+
+	LISTA 13 - EXC 4:
+
+
+JAVA:	Array List, Hash Set, Linked List
+
+	Desempenho Hash Set > Desempenho Array List > Desempenho LinkedList
+
+	1) O Hash Set possui um desempenho muito maior que o do LinkedList (que apresentou-se o pior desempenho entre os três). 
+	2) Todas as três estruturas possuem mesmo desempenho em remoção praticamente.
+	
+
+
+C++:	Vector, List, Unorded Set
+
+	Desempenho List = Desempenho Unorded Set > Desempenho Vector
+
+	1) A Unorded Set e a List possuem rendimento maior que o Vector.
+
+	2) Todas as três estruturas possuem mesmo desempenho em varredura.
+
+	3) Em geral, o C++ aprensentou-se muito mais eficiente que o Java em suas respectivas estruturas análogas.
+
